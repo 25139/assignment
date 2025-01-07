@@ -1,0 +1,45 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+In JavaScript, a data type defines the type of value that a variable can hold. JavaScript is a dynamically typed language, which means you don’t have to explicitly specify the data type of a variable. The type is determined automatically based on the value assigned.
+Types of Data Types in JavaScript
+1.	Primitive Data Types
+2.	Non-Primitive Data Types
+1. Primitive Data Types
+Primitive data types in JavaScript are the most basic types of data. These are immutable, meaning their value cannot be changed after they are created.
+Primitive Data Types in JavaScript:
+Number: Represents both integer and floating-point numbers.
+let age = 25;      // Integer
+let pi = 3.14;     // Floating-point
+String: Represents textual data.
+let name = "Alice";
+Boolean: Represents logical values (true or false).
+let isAvailable = true;
+Undefined: A variable that has been declared but not assigned a value.
+let x; // Undefined
+Null: Represents an intentional absence of value.
+let y = null;
+
+
+
+
+
+
+
+
+
+
+2. Non-Primitive Data Types
+Non-primitive (or reference) data types are more complex. They can store collections of values or more complex entities and are mutable.
+Non-Primitive Data Types in JavaScript:
+Object: Represents a collection of key-value pairs.
+let person = {
+    name: "Alice",
+    age: 25
+};
+Array: A special type of object used to store ordered collections of data.
+let colors = ["red", "green", "blue"];
+Function: A block of reusable code that can be called and executed.
+function greet() {
+    return "Hello, World!";
+}
+	
